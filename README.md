@@ -6,14 +6,18 @@ A **frontend-only** marketing site for a fictional productivity app. It demonstr
 
 Coming soon.
 
-## Screenshot
+## Video demo
 
-Coming soon.
+Screen recording of the UI in motion (WebM, committed in this repo):
+
+<video src="public/videos/taskflow-saas.webm" controls playsinline muted width="100%"></video>
+
+If the player does not load in your viewer, open [`public/videos/taskflow-saas.webm`](./public/videos/taskflow-saas.webm) locally or via **Raw** on GitHub.
 
 ## Features
 
 - Bright hero with hard-edge **memo / release-note** styling (Sora + Inter)
-- Product “screenshot” built entirely in CSS (`DashboardMock.jsx`) with squared chrome
+- Product preview built entirely in CSS (`DashboardMock.jsx`) with squared chrome
 - **Stacked feature bands** (alternating background) instead of a uniform card grid
 - Indigo **workflow band** + integrations as **square tiles**
 - **Pricing comparison table** with **Monthly / Yearly** toggle (local state only)
@@ -40,4 +44,3 @@ npm run dev
 - Connect pricing to Stripe Checkout in a separate backend project
 - Motion-reduced variants for heavy transitions
 - Analytics instrumentation (privacy-reviewed)
-# taskflow-saas
